@@ -318,11 +318,11 @@
         <footer class="footer">
             <div class="container">
                 <div class="footer-nav">
-                    <a href="./index.html" class="footer-logo"
+                    <a href="./index.html" class="footer-logo link"
                         ><span class="accent">Web</span>Studio
                     </a>
                     <address>
-                        <ul class="footer-contacts">
+                        <ul class="footer-contacts list">
                             <li class="ft-contact-item">
                                 <a
                                     href="https://goo.gl/maps/RZBRHcPRKJoQ98QK8"
@@ -381,6 +381,27 @@
                             </a>
                         </li>
                     </ul>
+                </div>
+                <div class="subscription">
+                    <b class="subscription-title">подпишитесь на рассылку</b>
+                    <form
+                        class="subscription-form"
+                        action="javascript:void(0);"
+                        name="subscription"
+                    >
+                        <input
+                            class="subscription-email"
+                            type="email"
+                            name="email"
+                            placeholder="E-mail"
+                        />
+                        <button class="subscription-btn" type="submit">
+                            <span class="subscription-text">Подписаться</span>
+                            <svg class="send-icon" width="24" height="24">
+                                <use href="./images/icons.svg#send"></use>
+                            </svg>
+                        </button>
+                    </form>
                 </div>
             </div>
         </footer>
